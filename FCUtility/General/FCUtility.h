@@ -7,4 +7,14 @@
 
 
 @interface FCUtility : NSObject
++ (FCUtility *)utility;
+
+- (NSString *)dirDoc;
+
+- (void)writeFile:(NSString *)path content:(NSString *)content;
+
+- (NSString *)toJSONData:(id)data;
+
+- (long)getRandomNumber:(long)from to:(long)to;
+
 @end

@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "FCUtility.h"
 
 @interface ViewController ()
 
@@ -16,7 +17,9 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+     NSString *str=  [[FCUtility utility]dirDoc];
+    NSString *string = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
+
 }
 
 - (void)didReceiveMemoryWarning {
