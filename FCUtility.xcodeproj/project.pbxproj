@@ -16,6 +16,7 @@
 		08BDBF6E1BD0A47A00854578 /* FCUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF6D1BD0A47A00854578 /* FCUtilityTests.m */; };
 		08BDBF791BD0A47A00854578 /* FCUtilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF781BD0A47A00854578 /* FCUtilityUITests.m */; };
 		08BDBF891BD0A56600854578 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF881BD0A56600854578 /* UIImage+ImageWithColor.m */; settings = {ASSET_TAGS = (); }; };
+		18C281653D13C7394B68DB3D /* FCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2890A40AFEAE39950F5D9 /* FCUtility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,8 @@
 		08BDBF7A1BD0A47A00854578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		08BDBF871BD0A56600854578 /* UIImage+ImageWithColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ImageWithColor.h"; sourceTree = "<group>"; };
 		08BDBF881BD0A56600854578 /* UIImage+ImageWithColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ImageWithColor.m"; sourceTree = "<group>"; };
+		18C2890A40AFEAE39950F5D9 /* FCUtility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FCUtility.m; sourceTree = "<group>"; };
+		18C28BF53234A4AB6F3417E7 /* FCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCUtility.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +117,7 @@
 				08BDBF611BD0A47A00854578 /* LaunchScreen.storyboard */,
 				08BDBF641BD0A47A00854578 /* Info.plist */,
 				08BDBF531BD0A47A00854578 /* Supporting Files */,
+				18C28C4E35108EB936B74953 /* General */,
 			);
 			path = FCUtility;
 			sourceTree = "<group>";
@@ -151,6 +155,15 @@
 				08BDBF881BD0A56600854578 /* UIImage+ImageWithColor.m */,
 			);
 			path = Extension;
+			sourceTree = "<group>";
+		};
+		18C28C4E35108EB936B74953 /* General */ = {
+			isa = PBXGroup;
+			children = (
+				18C2890A40AFEAE39950F5D9 /* FCUtility.m */,
+				18C28BF53234A4AB6F3417E7 /* FCUtility.h */,
+			);
+			path = General;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -287,6 +300,7 @@
 				08BDBF891BD0A56600854578 /* UIImage+ImageWithColor.m in Sources */,
 				08BDBF581BD0A47A00854578 /* AppDelegate.m in Sources */,
 				08BDBF551BD0A47A00854578 /* main.m in Sources */,
+				18C281653D13C7394B68DB3D /* FCUtility.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
