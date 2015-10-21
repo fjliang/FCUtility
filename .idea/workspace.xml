@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="" />
+    <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility.podspec" afterPath="$PROJECT_DIR$/FCUtility.podspec" />
+    </list>
     <ignored path="FCUtility.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -193,7 +195,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="6" y="36" width="1260" height="686" extended-state="0" />
+    <frame x="6" y="36" width="1260" height="686" extended-state="1" />
     <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
