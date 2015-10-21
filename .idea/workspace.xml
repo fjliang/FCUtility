@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/General/FCUtility.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/General/FCUtility.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility.xcodeproj/project.xcworkspace/xcuserdata/fjl.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/FCUtility.xcodeproj/project.xcworkspace/xcuserdata/fjl.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FCUtility.iml" afterPath="$PROJECT_DIR$/.idea/FCUtility.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FCUtility.xcodeproj/project.pbxproj" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="" />
     <ignored path="FCUtility.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -201,7 +194,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="6" y="36" width="1260" height="686" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
