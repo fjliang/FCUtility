@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/fjliang/FCUtility.git", :tag => s.version }
   #s.source_files = "**/*"
 
-  s.source_files = "FCUtility/Extension/*.{h,m}"
+  s.source_files = "FCUtility/*.{h,m}"
   #s.resource     = "FCUtility/FCUtility.bundle"
   s.requires_arc = true
 end
