@@ -3,6 +3,7 @@
 // Copyright (c) 2015 fc. All rights reserved.
 //
 
+#import <sys/time.h>
 #import "FCUtility.h"
 
 
@@ -18,7 +19,6 @@
     });
     return utility;
 }
-
 
 /**
  *  获取Documents目录
@@ -86,4 +86,42 @@
 - (long)getRandomNumber:(long)from to:(long)to {
     return (long) (from + (arc4random() % (to - from + 1)));
 }
+
+
+- (BOOL)isBlankString:(NSString *)string {
+    if (string == nil || string == NULL) {
+        return YES;
+    }
+    if ([string isKindOfClass:[NSNull class]]) {
+        return YES;
+    }
+    if ([[self trim:string] length] == 0) {
+        return YES;
+    }
+    return NO;
+}
+
+
+- (NSString *)trim:(NSString *)str {
+    NSString *cleanString = [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
+    return cleanString;
+}
+
++ (NSDateFormatter *)getDateFormatter:(NSString *)formatter {
+    return [self getDateFormatter:formatter timeZone:[NSTimeZone systemTimeZone]];
+}
+
++ (NSDateFormatter *)getDateFormatter:(NSString *)formatter timeZone:(NSTimeZone *)timeZone {
+    NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
+    dateFormatter.dateFormat = formatter;
+    dateFormatter.timeZone = timeZone;
+    return dateFormatter;
+}
+
++ (long)getCurrentillisecond {
+    struct timeval tv;
+    gettimeofday(&tv, NULL);
+    return tv.tv_sec * 1000 + tv.tv_usec / 1000;
+}
+
 @end

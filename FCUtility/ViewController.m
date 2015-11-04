@@ -8,6 +8,8 @@
 
 #import "ViewController.h"
 #import "FCUtility.h"
+#import "NSDate+FCFormatter.h"
+#include <sys/time.h>
 
 @interface ViewController ()
 
@@ -17,9 +19,17 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-     NSString *str=  [[FCUtility utility]dirDoc];
-    NSString *string = [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
+    NSString *dateStr = @"2015-11-04 23:59:59";
+    NSString *timeStamp = [dateStr timeStamp:FC_yyyy_MM_dd_HH_mm_ss];
 
+    CFAbsoluteTime d = CFAbsoluteTimeGetCurrent();
+
+    struct timeval tv;
+    gettimeofday(&tv,NULL);
+
+    NSLog(@"-------->%lld", (long long) d);
+
+    [FCUtility  getc]
 }
 
 - (void)didReceiveMemoryWarning {

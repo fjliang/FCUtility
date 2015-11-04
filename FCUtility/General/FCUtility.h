@@ -17,4 +17,12 @@
 
 - (long)getRandomNumber:(long)from to:(long)to;
 
+- (NSString *)trim:(NSString *)str;
+
++ (NSDateFormatter *)getDateFormatter:(NSString *)formatter;
+
++ (NSDateFormatter *)getDateFormatter:(NSString *)formatter timeZone:(NSTimeZone *)timeZone;
+
++ (long)getCurrentMillisecond;
+
 @end
