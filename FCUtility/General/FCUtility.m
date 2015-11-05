@@ -25,7 +25,7 @@
  *
  *  @return Documents目录
  */
-- (NSString *)dirDoc {
++ (NSString *)dirDoc {
     return [NSHomeDirectory() stringByAppendingPathComponent:@"Documents"];
 //    NSArray *paths = NSSearchPathForDirectoriesInDomains(NSDocumentDirectory, NSUserDomainMask, YES);
 //    NSString *documentsDirectory = [paths objectAtIndex:0];
@@ -38,7 +38,7 @@
  *  @param path    文件路径
  *  @param content 文件内容
  */
-- (void)writeFile:(NSString *)path content:(NSString *)content {
++ (void)writeFile:(NSString *)path content:(NSString *)content {
 
     NSFileManager *manager = [NSFileManager defaultManager];
     if (![manager fileExistsAtPath:path]) {
@@ -64,7 +64,7 @@
  *
  *  @return json字符串
  */
-- (NSString *)toJSONData:(id)data {
++ (NSString *)toJSONData:(id)data {
     NSError *error = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:data
                                                        options:NSJSONWritingPrettyPrinted
@@ -83,12 +83,12 @@
  *
  *  @return
  */
-- (long)getRandomNumber:(long)from to:(long)to {
++ (long)getRandomNumber:(long)from to:(long)to {
     return (long) (from + (arc4random() % (to - from + 1)));
 }
 
 
-- (BOOL)isBlankString:(NSString *)string {
++ (BOOL)isBlankString:(NSString *)string {
     if (string == nil || string == NULL) {
         return YES;
     }
@@ -102,7 +102,7 @@
 }
 
 
-- (NSString *)trim:(NSString *)str {
++ (NSString *)trim:(NSString *)str {
     NSString *cleanString = [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     return cleanString;
 }
@@ -118,10 +118,10 @@
     return dateFormatter;
 }
 
-+ (long)getCurrentillisecond {
++ (long long)getCurrentMillisecond {
     struct timeval tv;
     gettimeofday(&tv, NULL);
-    return tv.tv_sec * 1000 + tv.tv_usec / 1000;
+    return ((long long) tv.tv_sec) * 1000 + tv.tv_usec / 1000;
 }
 
 @end

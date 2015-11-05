@@ -7,22 +7,22 @@
 
 
 @interface FCUtility : NSObject
-+ (FCUtility *)utility;
+//+ (FCUtility *)utility;
 
-- (NSString *)dirDoc;
++ (NSString *)dirDoc;
 
-- (void)writeFile:(NSString *)path content:(NSString *)content;
++ (void)writeFile:(NSString *)path content:(NSString *)content;
 
-- (NSString *)toJSONData:(id)data;
++ (NSString *)toJSONData:(id)data;
 
-- (long)getRandomNumber:(long)from to:(long)to;
++ (long)getRandomNumber:(long)from to:(long)to;
 
-- (NSString *)trim:(NSString *)str;
++ (NSString *)trim:(NSString *)str;
 
 + (NSDateFormatter *)getDateFormatter:(NSString *)formatter;
 
 + (NSDateFormatter *)getDateFormatter:(NSString *)formatter timeZone:(NSTimeZone *)timeZone;
 
-+ (long)getCurrentMillisecond;
++ (long long)getCurrentMillisecond;
 
 @end
