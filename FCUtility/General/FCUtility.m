@@ -87,7 +87,13 @@
     return (long) (from + (arc4random() % (to - from + 1)));
 }
 
-
+/**
+ *  字符串判空
+ *
+ *  @param string
+ *
+ *  @return  YES 空  NO 非空
+ */
 + (BOOL)isBlankString:(NSString *)string {
     if (string == nil || string == NULL) {
         return YES;
@@ -101,16 +107,37 @@
     return NO;
 }
 
-
+/**
+ *  字符串去空格
+ *
+ *  @param str
+ *
+ *  @return
+ */
 + (NSString *)trim:(NSString *)str {
     NSString *cleanString = [str stringByTrimmingCharactersInSet:[NSCharacterSet whitespaceAndNewlineCharacterSet]];
     return cleanString;
 }
 
+/**
+ *  获取NSDateFormatter(默认使用系统时区)
+ *
+ *  @param formatter yyyy-MM-dd (格式)
+ *
+ *  @return
+ */
 + (NSDateFormatter *)getDateFormatter:(NSString *)formatter {
     return [self getDateFormatter:formatter timeZone:[NSTimeZone systemTimeZone]];
 }
 
+/**
+ *  获取NSDateFormatter
+ *
+ *  @param formatter  yyyy-MM-dd (格式)
+ *  @param timeZone   时区
+ *
+ *  @return
+ */
 + (NSDateFormatter *)getDateFormatter:(NSString *)formatter timeZone:(NSTimeZone *)timeZone {
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = formatter;
@@ -118,6 +145,11 @@
     return dateFormatter;
 }
 
+/**
+ *  获取当前毫秒
+ *
+ *  @return
+ */
 + (long long)getCurrentMillisecond {
     struct timeval tv;
     gettimeofday(&tv, NULL);

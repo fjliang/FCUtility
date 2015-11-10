@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>ECB4BBB3-B733-45D1-BD68-4ADD881BA096</string>
 	<key>IDESourceControlProjectName</key>
-	<string>project</string>
+	<string>FCUtility</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>9DE398292F82072ED12E94D51E878F08ECE3D4FF</key>
 		<string>https://github.com/fjliang/FCUtility.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>FCUtility.xcodeproj/project.xcworkspace</string>
+	<string>FCUtility.xcodeproj</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>9DE398292F82072ED12E94D51E878F08ECE3D4FF</key>
