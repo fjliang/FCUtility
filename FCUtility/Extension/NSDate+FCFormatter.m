@@ -46,44 +46,55 @@
  *  @return
  */
 - (NSString *)getCurrenteTimeStamp {
-    return [NSString stringWithFormat:@"%li", (long) time(nil)];
+    return [NSString stringWithFormat:@"%ld", (long) time(nil)];
 }
 
 /**
- *  <#Description#>
+ * 日期字符串 -->  时间戳字符串(秒)
  *
- *  @param formatter <#formatter description#>
+ *  @param formatter  日期格式(yyyy-MM-dd)
  *
- *  @return <#return value description#>
+ *  @return
  */
-- (NSString *)timeStamp:(NSString *)formatter {
-    return [NSString stringWithFormat:@"%ld", (long) [[self getDate:formatter] timeIntervalSince1970]];
+- (NSString *)timeStampStr:(NSString *)formatter {
+    return [NSString stringWithFormat:@"%ld", [self timeStamp:formatter]];
 }
 
 /**
- *  <#Description#>
+ * 日期字符串 -->  时间戳(秒)
  *
- *  @return <#return value description#>
+ *  @param formatter  日期格式(yyyy-MM-dd)
+ *
+ *  @return
  */
-- (NSString *)timeStamp {
-    return [self timeStamp:FC_yyyy_MM_dd];
+- (long)timeStamp:(NSString *)formatter {
+    return (long) [[self getDate:formatter] timeIntervalSince1970];
 }
 
 /**
- *  <#Description#>
+ *  yyyy-MM-dd格式日期字符串 -->  时间戳字符串(秒)
  *
- *  @param formatter <#formatter description#>
+ *  @return
+ */
+- (NSString *)timeStampStr {
+    return [self timeStampStr:FC_yyyy_MM_dd];
+}
+
+/**
+ *  日期字符串 -->  NSDate
  *
- *  @return <#return value description#>
+ *  @param formatter 日期格式
+ *
+ *  @return
  */
 - (NSDate *)getDate:(NSString *)formatter {
     return [[FCUtility getDateFormatter:formatter] dateFromString:self];
 }
 
 /**
- *  <#Description#>
+ *  yyyy-MM-dd格式日期字符串 --> NSDate
  *
- *  @return <#return value description#>
+ *  @return
  */
 - (NSDate *)getDate {
     return [[FCUtility getDateFormatter:FC_yyyy_MM_dd] dateFromString:self];

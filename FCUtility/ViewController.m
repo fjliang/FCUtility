@@ -29,7 +29,7 @@
 
     NSLog(@"-------->%lld", (long long) d);
 
-    [FCUtility  getc]
+    [FCUtility getCurrentMillisecond];
 }
 
 - (void)didReceiveMemoryWarning {

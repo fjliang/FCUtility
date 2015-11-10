@@ -26,9 +26,11 @@
 
 - (NSDate *)getDate:(NSString *)formatter;
 
-- (NSString *)timeStamp;
+- (NSString *)timeStampStr;
 
-- (NSString *)timeStamp:(NSString *)format;
+- (NSString *)timeStampStr:(NSString *)format;
+
+- (long)timeStamp:(NSString *)formatter;
 
 
 @end
