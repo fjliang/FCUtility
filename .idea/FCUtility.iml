@@ -11,6 +11,8 @@
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/NSDate+FCFormatter.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIImage+ImageWithColor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIImage+ImageWithColor.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIViewController+BackButtonHandler.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIViewController+BackButtonHandler.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/General/FCUtility.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/General/FCUtility.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Info.plist" isTestSource="false" />

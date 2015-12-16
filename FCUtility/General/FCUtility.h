@@ -17,6 +17,8 @@
 
 + (long)getRandomNumber:(long)from to:(long)to;
 
++ (BOOL)isBlankString:(NSString *)string;
+
 + (NSString *)trim:(NSString *)str;
 
 + (NSDateFormatter *)getDateFormatter:(NSString *)formatter;
