@@ -65,6 +65,9 @@
  *  @return json字符串
  */
 + (NSString *)toJSONData:(id)data {
+    if (!data)
+        return nil;
+
     NSError *error = nil;
     NSData *jsonData = [NSJSONSerialization dataWithJSONObject:data
                                                        options:NSJSONWritingPrettyPrinted
@@ -154,6 +157,17 @@
     struct timeval tv;
     gettimeofday(&tv, NULL);
     return ((long long) tv.tv_sec) * 1000 + tv.tv_usec / 1000;
+}
+/**
+ *  获取指定月份的天数
+ *
+ *  @param date  yyyy-MM-dd (格式)
+ *  @return
+ */
++ (int)getDaysOfMonth:(NSDate *)date {
+    NSCalendar *calendar = [NSCalendar currentCalendar];
+    NSRange range = [calendar rangeOfUnit:NSCalendarUnitDay inUnit:NSCalendarUnitMonth forDate:date];
+    return range.length;
 }
 
 @end

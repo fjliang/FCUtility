@@ -27,4 +27,6 @@
 
 + (long long)getCurrentMillisecond;
 
++ (int)getDaysOfMonth:(NSDate *)date;
+
 @end
