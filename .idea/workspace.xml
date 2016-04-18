@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FCUtility.iml" afterPath="$PROJECT_DIR$/.idea/FCUtility.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility/General/FCUtility.h" afterPath="$PROJECT_DIR$/FCUtility/General/FCUtility.h" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility/General/FCUtility.m" afterPath="$PROJECT_DIR$/FCUtility/General/FCUtility.m" />
@@ -21,7 +20,7 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="iphoneos_3a8c6a97f3be9ab789abbea505a06d50e89e8541" />
   <component name="FavoritesManager">
     <favorites_list name="FCUtility" />
   </component>
@@ -39,11 +38,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FCUtility.m" pinned="false" current-in-tab="false">
+      <file leaf-file-name="FCUtility.m" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/FCUtility/General/FCUtility.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="218">
-              <caret line="155" column="28" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
+            <state relative-caret-position="504">
+              <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
               <folding>
                 <element signature="e#88#108#0" expanded="true" />
               </folding>
@@ -51,11 +50,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_null.h" pinned="false" current-in-tab="false">
-        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/usr/include/sys/_types/_null.h">
+      <file leaf-file-name="NSString.h" pinned="false" current-in-tab="false">
+        <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="504">
-              <caret line="28" column="8" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="180">
+              <caret line="337" column="31" selection-start-line="337" selection-start-column="31" selection-end-line="337" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -64,7 +63,7 @@
       <file leaf-file-name="NSDate+FCFormatter.m" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FCUtility/Extension/NSDate+FCFormatter.m">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="990">
               <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
               <folding>
                 <element signature="e#87#117#0" expanded="true" />
@@ -83,11 +82,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="FCUtility.h" pinned="false" current-in-tab="true">
+      <file leaf-file-name="FCUtility.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FCUtility/General/FCUtility.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="416">
-              <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+            <state relative-caret-position="162">
+              <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -116,7 +115,7 @@
       <file leaf-file-name="NSString+Password.h" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/FCUtility/Extension/NSString+Password.h">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="293">
+            <state relative-caret-position="324">
               <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
               <folding />
             </state>
@@ -144,8 +143,8 @@
         <option value="$PROJECT_DIR$/FCUtility/ViewController.m" />
         <option value="$PROJECT_DIR$/FCUtility/Extension/NSDate+FCFormatter.h" />
         <option value="$PROJECT_DIR$/FCUtility/Extension/NSDate+FCFormatter.m" />
-        <option value="$PROJECT_DIR$/FCUtility/General/FCUtility.m" />
         <option value="$PROJECT_DIR$/FCUtility/General/FCUtility.h" />
+        <option value="$PROJECT_DIR$/FCUtility/General/FCUtility.m" />
       </list>
     </option>
   </component>
@@ -186,6 +185,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Cidr.FilesView" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -250,7 +250,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Cidr.FilesView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -261,7 +260,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../orangins-old/Libraries/MD5加密/NSString+Password.m" />
   </component>
   <component name="RunManager" selected="Application.FCUtility">
-    <configuration default="false" name="FCUtility" type="AppleRunConfiguration" factoryName="Application" temporary="true" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCUtility" TARGET_NAME="FCUtility" CONFIG_NAME="Debug" SCHEME_NAME="FCUtility" RUN_TARGET_PROJECT_NAME="FCUtility" RUN_TARGET_NAME="FCUtility" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
+    <configuration default="false" name="FCUtility" type="AppleRunConfiguration" factoryName="Application" temporary="true" WORKING_DIR="" PASS_PARENT_ENVS_2="true" PROJECT_NAME="FCUtility" TARGET_NAME="FCUtility" CONFIG_NAME="Debug" SCHEME_NAME="FCUtility" RUN_TARGET_PROJECT_NAME="FCUtility" RUN_TARGET_NAME="FCUtility" MAKE_ACTIVE="TRUE" WAIT_FOR="FALSE">
       <envs />
       <EXTENSION ID="org.jetbrains.appcode.reveal.RevealRunConfigurationExtension">
         <REVEAL_SETTINGS autoInject="false" autoInstall="true" askToEnableAutoInstall="true" />
@@ -391,14 +390,6 @@
     </watches-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/FCUtility/General/FCUtility.h">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="17" column="15" selection-start-line="17" selection-start-column="15" selection-end-line="17" selection-end-column="15" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/FCUtility/Extension/UIImage+ImageWithColor.h">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -696,7 +687,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FCUtility/Extension/NSString+Password.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="293">
+        <state relative-caret-position="324">
           <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
           <folding />
         </state>
@@ -704,7 +695,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/FCUtility/Extension/NSDate+FCFormatter.m">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
+        <state relative-caret-position="990">
           <caret line="55" column="2" selection-start-line="55" selection-start-column="2" selection-end-line="55" selection-end-column="2" />
           <folding>
             <element signature="e#87#117#0" expanded="true" />
@@ -712,21 +703,29 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FCUtility/General/FCUtility.m">
+    <entry file="file:///Applications/Xcode.app/Contents/Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="155" column="28" selection-start-line="155" selection-start-column="28" selection-end-line="155" selection-end-column="28" />
-          <folding>
-            <element signature="e#88#108#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="180">
+          <caret line="337" column="31" selection-start-line="337" selection-start-column="31" selection-end-line="337" selection-end-column="31" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/FCUtility/General/FCUtility.h">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="416">
-          <caret line="29" column="37" selection-start-line="29" selection-start-column="37" selection-end-line="29" selection-end-column="37" />
+        <state relative-caret-position="162">
+          <caret line="15" column="16" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/FCUtility/General/FCUtility.m">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="100" column="1" selection-start-line="100" selection-start-column="1" selection-end-line="100" selection-end-column="1" />
+          <folding>
+            <element signature="e#88#108#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

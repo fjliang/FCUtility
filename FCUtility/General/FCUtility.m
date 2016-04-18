@@ -79,6 +79,28 @@
 }
 
 /**
+ *  将JSON字符串转为字典或数组
+ *
+ *  @param NSString
+ *
+ *  @return NSArray 或 NSDictionary
+ */
++ (id)toOCData:(NSString *)data {
+    if (!data)
+        return nil;
+
+    NSData *jsonData = [data dataUsingEncoding:NSUTF8StringEncoding];
+    NSError *error;
+    id o = [NSJSONSerialization JSONObjectWithData:jsonData
+                                           options:NSJSONReadingMutableContainers
+                                             error:&error];
+    if (o && !error) {
+        return o;
+    }
+    return nil;
+}
+
+/**
  *  获取指定区间随机数
  *
  *  @param from  起始
@@ -158,6 +180,7 @@
     gettimeofday(&tv, NULL);
     return ((long long) tv.tv_sec) * 1000 + tv.tv_usec / 1000;
 }
+
 /**
  *  获取指定月份的天数
  *

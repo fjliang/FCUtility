@@ -23,8 +23,8 @@
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIViewController+BackButtonHandler.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtilityUITests/FCUtilityUITests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtilityUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FCUtilityTests/FCUtilityTests.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtilityTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtilityTests/FCUtilityTests.m" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

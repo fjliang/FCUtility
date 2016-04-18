@@ -15,6 +15,8 @@
 
 + (NSString *)toJSONData:(id)data;
 
++ (id)toOCData:(NSString *)data;
+
 + (long)getRandomNumber:(long)from to:(long)to;
 
 + (BOOL)isBlankString:(NSString *)string;
