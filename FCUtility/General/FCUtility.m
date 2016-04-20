@@ -167,6 +167,7 @@
     NSDateFormatter *dateFormatter = [[NSDateFormatter alloc] init];
     dateFormatter.dateFormat = formatter;
     dateFormatter.timeZone = timeZone;
+//    dateFormatter.locale = [[NSLocale alloc] initWithLocaleIdentifier:@"zh-Hans"];
     return dateFormatter;
 }
 

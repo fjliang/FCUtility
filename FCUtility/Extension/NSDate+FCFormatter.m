@@ -35,6 +35,18 @@
 - (NSString *)YMDHMSDate {
     return [[FCUtility getDateFormatter:FC_yyyy_MM_dd_HH_mm_ss] stringFromDate:self];
 }
+
+/**
+ * 获取系统时区的Date
+ */
+- (NSDate *)localeDate {
+    NSTimeZone *zone = [NSTimeZone systemTimeZone];
+    NSInteger interval = [zone secondsFromGMTForDate:self];
+    NSDate *localeDate = [self dateByAddingTimeInterval:interval];
+    return localeDate;
+}
+
+
 @end
 
 
@@ -88,7 +100,8 @@
  *  @return
  */
 - (NSDate *)getDate:(NSString *)formatter {
-    return [[FCUtility getDateFormatter:formatter] dateFromString:self];
+    NSDate *date = [[FCUtility getDateFormatter:formatter] dateFromString:self];
+    return [date localeDate];
 }
 
 /**
@@ -97,6 +110,7 @@
  *  @return
  */
 - (NSDate *)getDate {
-    return [[FCUtility getDateFormatter:FC_yyyy_MM_dd] dateFromString:self];
+    NSDate *date = [[FCUtility getDateFormatter:FC_yyyy_MM_dd] dateFromString:self];
+    return [date localeDate];
 }
 @end

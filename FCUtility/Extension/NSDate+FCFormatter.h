@@ -15,6 +15,8 @@
 
 - (NSString *)formatterDate:(NSString *)formatter;
 
+- (NSDate *)localeDate;
+
 @end
 
 

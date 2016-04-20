@@ -15,7 +15,7 @@
 		08BDBF631BD0A47A00854578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08BDBF611BD0A47A00854578 /* LaunchScreen.storyboard */; };
 		08BDBF6E1BD0A47A00854578 /* FCUtilityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF6D1BD0A47A00854578 /* FCUtilityTests.m */; };
 		08BDBF791BD0A47A00854578 /* FCUtilityUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF781BD0A47A00854578 /* FCUtilityUITests.m */; };
-		08BDBF891BD0A56600854578 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF881BD0A56600854578 /* UIImage+ImageWithColor.m */; settings = {ASSET_TAGS = (); }; };
+		08BDBF891BD0A56600854578 /* UIImage+ImageWithColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 08BDBF881BD0A56600854578 /* UIImage+ImageWithColor.m */; };
 		18C281653D13C7394B68DB3D /* FCUtility.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C2890A40AFEAE39950F5D9 /* FCUtility.m */; };
 		18C28ABBACDD81E5B0B1829B /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C28A07496E80607E007B0E /* UIViewController+BackButtonHandler.m */; };
 		18C28FE457514855B34169ED /* NSDate+FCFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C287E1DB5CB52D2BCF3DB2 /* NSDate+FCFormatter.m */; };
@@ -248,6 +248,7 @@
 				TargetAttributes = {
 					08BDBF4F1BD0A47A00854578 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = V9PZA6ZY9J;
 					};
 					08BDBF681BD0A47A00854578 = {
 						CreatedOnToolsVersion = 7.0;
@@ -459,11 +460,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FCUtility/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fc.FCUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -471,11 +474,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = FCUtility/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.fc.FCUtility;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
