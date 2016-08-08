@@ -9,15 +9,10 @@ Pod::Spec.new do |s|
   s.source       = { :git => "https://github.com/fjliang/FCUtility.git", :tag => s.version , :submodules => true}
  
   s.subspec 'Extension' do |ss|
-    ss.public_header_files = 'FCUtility/Extension/{*.h,**.h}'
+    ss.public_header_files = 'FCUtility/Extension/*.h'
     ss.source_files = 'FCUtility/Extension'
   end
-
- # s.subspec 'Extension/AES' do |ss|
- #   ss.public_header_files = 'FCUtility/Extension/AES/*.h'
- #   ss.source_files = 'FCUtility/Extension/AES'
- # end
-
+ 
   s.subspec 'General' do |ss|
     ss.public_header_files = 'FCUtility/General/*.h'
     ss.source_files = 'FCUtility/General'
