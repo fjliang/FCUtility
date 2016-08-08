@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/AESCrypt.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/AESCrypt.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/NSData+Base64.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/NSData+Base64.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/NSData+CommonCrypto.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/NSData+CommonCrypto.m" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/NSString+Base64.h" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/FCUtility/Extension/AES/NSString+Base64.m" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility.xcodeproj/project.xcworkspace/xcuserdata/Cool.xcuserdatad/UserInterfaceState.xcuserstate" afterPath="$PROJECT_DIR$/FCUtility.xcodeproj/project.xcworkspace/xcuserdata/Cool.xcuserdatad/UserInterfaceState.xcuserstate" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/FCUtility.iml" afterPath="$PROJECT_DIR$/.idea/FCUtility.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/FCUtility.xcodeproj/project.pbxproj" afterPath="$PROJECT_DIR$/FCUtility.xcodeproj/project.pbxproj" />
-    </list>
+    <list default="true" id="20120f1b-c015-43e7-90e8-f8450370feb9" name="Default" comment="" />
     <ignored path="FCUtility.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
