@@ -2,8 +2,7 @@
 <module type="CIDR_MODULE" version="4">
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
-      <sourceFolder url="file://$MODULE_DIR$/FCUtilityUITests/FCUtilityUITests.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FCUtilityUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/ViewController.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/AppDelegate.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/General/FCUtility.m" isTestSource="false" />
@@ -13,18 +12,27 @@
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/NSString+Password.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIImage+ImageWithColor.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/NSDate+FCFormatter.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/AESCrypt.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/NSString+Base64.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/AESCrypt.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/NSData+CommonCrypto.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/NSData+Base64.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/NSData+CommonCrypto.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/NSString+Base64.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/AES/NSData+Base64.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/NSString+Password.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIImage+ImageWithColor.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Extension/UIViewController+BackButtonHandler.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FCUtility/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FCUtility/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtility/main.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/ViewController.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/AppDelegate.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtility/Base.lproj/Main.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/FCUtilityTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtilityUITests/FCUtilityUITests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtilityUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/FCUtilityTests/FCUtilityTests.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/FCUtilityTests/Info.plist" isTestSource="false" />
     </content>
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">

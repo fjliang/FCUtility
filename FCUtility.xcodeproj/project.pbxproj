@@ -20,6 +20,10 @@
 		18C28ABBACDD81E5B0B1829B /* UIViewController+BackButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C28A07496E80607E007B0E /* UIViewController+BackButtonHandler.m */; };
 		18C28FE457514855B34169ED /* NSDate+FCFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C287E1DB5CB52D2BCF3DB2 /* NSDate+FCFormatter.m */; };
 		18C28FE4B1C0D54AEBF7C9AF /* NSString+Password.m in Sources */ = {isa = PBXBuildFile; fileRef = 18C28E056E343D192D92D01E /* NSString+Password.m */; };
+		2023636316777C5D068F521A /* AESCrypt.m in Sources */ = {isa = PBXBuildFile; fileRef = 2023683509402E2C45C7753D /* AESCrypt.m */; };
+		2023644D7E479040E1B6A3F0 /* NSData+CommonCrypto.m in Sources */ = {isa = PBXBuildFile; fileRef = 202369C4FF25177E5C6C6A9F /* NSData+CommonCrypto.m */; };
+		202365D28D22B8E68AA051FE /* NSData+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 20236BE1993B43C63AB1570F /* NSData+Base64.m */; };
+		2023693FF43419F7B7CDEDE4 /* NSString+Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 20236EC9C0C0EB26299068A7 /* NSString+Base64.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +70,14 @@
 		18C28BF53234A4AB6F3417E7 /* FCUtility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FCUtility.h; sourceTree = "<group>"; };
 		18C28E056E343D192D92D01E /* NSString+Password.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Password.m"; sourceTree = "<group>"; };
 		18C28F260C8B9986C356C0BF /* NSString+Password.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Password.h"; sourceTree = "<group>"; };
+		2023683509402E2C45C7753D /* AESCrypt.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AESCrypt.m; sourceTree = "<group>"; };
+		202369C4FF25177E5C6C6A9F /* NSData+CommonCrypto.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+CommonCrypto.m"; sourceTree = "<group>"; };
+		20236BE1993B43C63AB1570F /* NSData+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+Base64.m"; sourceTree = "<group>"; };
+		20236E1067AB961E7156EE51 /* NSData+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+Base64.h"; sourceTree = "<group>"; };
+		20236EC9C0C0EB26299068A7 /* NSString+Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Base64.m"; sourceTree = "<group>"; };
+		20236F2DC4423B1C90E4B0AD /* NSString+Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Base64.h"; sourceTree = "<group>"; };
+		20236FCE77B6C8846D41EE37 /* AESCrypt.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AESCrypt.h; sourceTree = "<group>"; };
+		20236FE032BD26321EE0EEC7 /* NSData+CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+CommonCrypto.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -168,6 +180,7 @@
 				18C28A07496E80607E007B0E /* UIViewController+BackButtonHandler.m */,
 				18C28F260C8B9986C356C0BF /* NSString+Password.h */,
 				18C28E056E343D192D92D01E /* NSString+Password.m */,
+				20236A77AECBCC231AAF665F /* AES */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -179,6 +192,21 @@
 				18C28BF53234A4AB6F3417E7 /* FCUtility.h */,
 			);
 			path = General;
+			sourceTree = "<group>";
+		};
+		20236A77AECBCC231AAF665F /* AES */ = {
+			isa = PBXGroup;
+			children = (
+				20236FCE77B6C8846D41EE37 /* AESCrypt.h */,
+				2023683509402E2C45C7753D /* AESCrypt.m */,
+				20236E1067AB961E7156EE51 /* NSData+Base64.h */,
+				20236BE1993B43C63AB1570F /* NSData+Base64.m */,
+				20236F2DC4423B1C90E4B0AD /* NSString+Base64.h */,
+				20236EC9C0C0EB26299068A7 /* NSString+Base64.m */,
+				20236FE032BD26321EE0EEC7 /* NSData+CommonCrypto.h */,
+				202369C4FF25177E5C6C6A9F /* NSData+CommonCrypto.m */,
+			);
+			path = AES;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -320,6 +348,10 @@
 				18C28FE457514855B34169ED /* NSDate+FCFormatter.m in Sources */,
 				18C28ABBACDD81E5B0B1829B /* UIViewController+BackButtonHandler.m in Sources */,
 				18C28FE4B1C0D54AEBF7C9AF /* NSString+Password.m in Sources */,
+				2023636316777C5D068F521A /* AESCrypt.m in Sources */,
+				202365D28D22B8E68AA051FE /* NSData+Base64.m in Sources */,
+				2023693FF43419F7B7CDEDE4 /* NSString+Base64.m in Sources */,
+				2023644D7E479040E1B6A3F0 /* NSData+CommonCrypto.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
