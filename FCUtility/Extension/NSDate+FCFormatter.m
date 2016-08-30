@@ -15,7 +15,7 @@
  *  @return  formatter指定的格式
  */
 - (NSString *)formatterDate:(NSString *)formatter {
-    return [[FCUtility getDateFormatter:formatter] stringFromDate:[self localeDate]];
+    return [[FCUtility getDateFormatter:formatter] stringFromDate: self ];
 }
 
 /**
@@ -24,7 +24,7 @@
  *  @return
  */
 - (NSString *)YMDDate {
-    return [[FCUtility getDateFormatter:FC_yyyy_MM_dd] stringFromDate:[self localeDate]];
+    return [[FCUtility getDateFormatter:FC_yyyy_MM_dd] stringFromDate: self ];
 }
 
 /**
@@ -33,7 +33,7 @@
  *  @return
  */
 - (NSString *)YMDHMSDate {
-    return [[FCUtility getDateFormatter:FC_yyyy_MM_dd_HH_mm_ss] stringFromDate:[self localeDate]];
+    return [[FCUtility getDateFormatter:FC_yyyy_MM_dd_HH_mm_ss] stringFromDate: self ];
 }
 
 /**
