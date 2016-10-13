@@ -80,7 +80,8 @@
  *  @return
  */
 - (long)timeStamp:(NSString *)formatter {
-    return (long) [[self getDate:formatter] timeIntervalSince1970];
+    NSDate *date = [[FCUtility getDateFormatter:formatter] dateFromString:self];
+    return (long) [date timeIntervalSince1970];
 }
 
 /**
