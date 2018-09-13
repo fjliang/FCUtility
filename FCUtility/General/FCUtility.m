@@ -73,7 +73,8 @@
                                                        options:NSJSONWritingPrettyPrinted
                                                          error:&error];
     if ([jsonData length] > 0 && !error) {
-        return [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        NSString *result = [[NSString alloc] initWithData:jsonData encoding:NSUTF8StringEncoding];
+        return [result stringByReplacingOccurrencesOfString:@"\n" withString:@""];
     }
     return nil;
 }
